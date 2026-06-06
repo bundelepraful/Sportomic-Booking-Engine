@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:30px;
+    background:#f4f4f4;
+}
+
+.container{
+    display:flex;
+    gap:50px;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:400px;
+}
+
+label{
+    display:block;
+    margin:10px 0;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    padding:5px;
+}

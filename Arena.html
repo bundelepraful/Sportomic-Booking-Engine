@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sportomic Arena Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <h1>Sportomic Arena Availability Engine</h1>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Book Arenas</h2>
+
+            <label>
+                <input type="checkbox" class="booking" value="A1">
+                7v7 Court A1
+            </label>
+
+            <label>
+                <input type="checkbox" class="booking" value="A2">
+                7v7 Court A2
+            </label>
+
+            <label>
+                <input type="checkbox" class="booking" value="B1">
+                5v5 Court B1
+            </label>
+
+            <label>
+                <input type="checkbox" class="booking" value="B2">
+                5v5 Court B2
+            </label>
+
+            <label>
+                <input type="checkbox" class="booking" value="B3">
+                5v5 Court B3
+            </label>
+
+            <button onclick="checkAvailability()">
+                Check Availability
+            </button>
+        </div>
+            <!-- result section -->
+        <div class="section">
+            <h2>Result</h2>
+
+            <h3>Booked</h3>
+            <ul id="booked"></ul>
+
+            <h3>Available</h3>
+            <ul id="available"></ul>
+
+            <h3>Blocked</h3>
+            <ul id="blocked"></ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
